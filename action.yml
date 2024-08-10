@@ -1,0 +1,10 @@
+name: "Open-AI Code Review Action"
+description: "Perform code reviews and comment on diffs using OpenAI API."
+author: "Avijit Chatterjee"
+
+runs:
+  using: "node20"
+  main: "dist/index.js"
+branding:
+  icon: "aperture"
+  color: "green"
